@@ -1,0 +1,20 @@
+using System;
+
+namespace MethodParameters
+{
+  public class PrintParameters
+  {
+    static void ParameterMethod(string country = "Norway")
+    {
+      Console.WriteLine(country);
+    }
+
+    public static void Main(string[] args)
+    {
+      ParameterMethod("Sweden");
+      ParameterMethod("India");
+      ParameterMethod();
+      ParameterMethod("USA");
+    }
+  }
+}

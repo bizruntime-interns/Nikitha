@@ -1,0 +1,15 @@
+using System;
+namespace Implicittype {
+					
+public class Program
+{
+	public static void Main()
+	{
+		int myInt = 9;
+      	double myDouble = myInt;  
+
+      	Console.WriteLine(myInt);
+      	Console.WriteLine(myDouble);
+	}
+}
+}

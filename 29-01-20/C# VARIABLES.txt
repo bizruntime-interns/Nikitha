@@ -1,0 +1,12 @@
+using System;
+namespace Variables {
+					
+public class PrintVariable
+{
+	public static void Main()
+	{
+		string name = "John";
+		Console.WriteLine(name);
+	}
+}
+}

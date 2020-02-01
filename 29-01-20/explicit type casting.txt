@@ -1,0 +1,15 @@
+using System;
+namespace ExplicitConvertion {
+					
+public class Program
+{
+	public static void Main()
+	{
+		double Double = 9.78;
+		int Int = (int) Double;    
+
+		Console.WriteLine(Double);   
+		Console.WriteLine(Int); 
+	}
+}
+}

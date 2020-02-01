@@ -1,0 +1,17 @@
+using System;
+namespace CreateMethods { 
+
+  public class Program
+  {
+    static void method()
+    {
+      Console.WriteLine("I just got executed!");
+    }
+
+    public static void Main(string[] args)
+    {
+      method();
+    }
+  }
+}
+

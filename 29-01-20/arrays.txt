@@ -1,0 +1,16 @@
+using System;
+namespace Arrays {
+					
+public class SortArray
+{
+	public static void Main()
+	{
+		string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+		Array.Sort(cars);
+		foreach (string i in cars)
+		{
+  		Console.WriteLine(i);
+		}
+	}
+}
+}
