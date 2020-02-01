@@ -1,0 +1,30 @@
+using System;
+
+namespace Constructor
+{
+  
+  public class Car
+  {
+    public string model; 
+	public int speed;
+	public int weight;  
+
+    
+    public Car()
+    {
+      	model = "Mustang";
+		speed = 250;
+		weight = 76408;
+    }
+
+    public static void Main(string[] args)
+    {
+      Car ford = new Car();
+		Console.WriteLine(ford.model);
+		Console.WriteLine(ford.speed);
+		Console.WriteLine(ford.weight);
+		
+		
+    }
+  }
+}

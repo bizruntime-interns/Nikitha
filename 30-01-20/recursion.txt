@@ -1,0 +1,34 @@
+using System;
+namespace Recurssion {
+					
+public class PrintRecursion
+{
+	public static int recurssion(int n,int m)
+	{
+		int sum=n;
+		if(n<m)
+		{
+			n++;
+			return sum += recurssion(n,m);
+		}
+		return sum;
+	}
+		
+
+	public static void Main(string[] args)
+	{
+		Console.WriteLine("Enter number n: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+ 
+        Console.WriteLine("Enter number m: ");
+        int m = Convert.ToInt32(Console.ReadLine());
+ 
+        int sum = recurssion(n, m);
+ 
+        Console.WriteLine(sum);
+ 
+        
+	}
+}
+}
+
