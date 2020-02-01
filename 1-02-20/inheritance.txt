@@ -1,0 +1,31 @@
+using System;
+namespace Inheritance {
+	 class Student  
+{
+  public string institute = "presidency";
+  public void name()              
+  {                    
+    Console.WriteLine("teju");
+  }
+}
+
+class Details : Student  
+{
+  public string branch = "cse";  
+}
+
+public class Program
+{
+  public static void Main(string[] args)
+  {
+   
+    Details details = new Details();
+
+   
+    details.name();
+
+    
+    Console.WriteLine(details.branch);
+  }
+}
+}

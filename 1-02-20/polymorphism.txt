@@ -1,0 +1,40 @@
+using System;
+namespace Polymorphism {
+					
+ class Student  // Base class (parent) 
+{
+  public virtual void details() 
+  {
+    Console.WriteLine("student details are");
+  }
+}
+
+class name : Student  
+{
+  public override void details() 
+  {
+    Console.WriteLine("yaan");
+  }
+}
+
+class branch : Student  
+{
+  public override void details() 
+  {
+    Console.WriteLine("cse");
+  }
+}
+
+public class Program 
+{
+  public static void Main(string[] args) 
+  {
+    Student student = new Student(); 
+    Student studentname = new name();  
+    Student studentbranch = new branch();  
+    student.details();
+    studentname.details();
+    studentbranch.details();
+  }
+}
+}
