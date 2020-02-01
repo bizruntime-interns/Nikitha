@@ -1,0 +1,23 @@
+using System;
+namespace Properties {
+	class Person {
+		private string  name;
+		public string  Name
+		{	
+		get { return name; }
+		set { name = value; }
+		}
+	}
+	
+					
+public class Program
+{
+	public static void Main()
+	{
+		Person obj = new Person();
+		obj.Name = "nikitha";
+		Console.WriteLine(obj.Name);
+			
+	}
+}
+}
