@@ -1,0 +1,23 @@
+<html>
+<body>
+	<div id = "demo">
+		<button type = "button" onclick="loadfunction()">link for web page</button>
+	</div>
+	<script>
+		function loadfunction()
+		{
+			var xhttp = new XMLHttpRequest();
+				xhttp.onreadystatechange = function(){
+					if(this.readystate==4 && this.status==200){
+						document.getElementById("demo").innerHTML=this.responseText;
+					}
+				};
+				xhttp.open("GET","link.txt",true);
+				xhttp.send();
+				
+
+		}
+		
+	</script>
+</body>
+</html>
