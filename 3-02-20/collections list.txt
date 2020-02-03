@@ -1,0 +1,14 @@
+using System;
+using System.Collections.Generic;
+namespace collections {
+public class Program
+{
+	
+	public static void Main()
+	{
+	var cars = new List<string> {"lamborghini","BMW","BENZ","AUDI"};
+     foreach (var car in cars)
+    Console.WriteLine(car+"cars");
+	}
+}
+}
